@@ -1,0 +1,38 @@
+.page-wrapper, html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.page-wrapper {
+  padding: 0;
+  padding-top: 0;
+  text-align: center;
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+}
+
+.page-wrapper h1{
+  padding: 2%;
+}
+
+.eas-wapper{
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  margin: 0;
+  padding: 1%;
+  background-color: burlywood;
+  flex: 1;
+  height: 95%;
+}
+
+.eas-boxes{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(2, 2, 1);
+  height: 100%;
+}
+
+.touched{
+  background-color: crimson;
+}
