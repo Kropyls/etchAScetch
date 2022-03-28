@@ -12,17 +12,30 @@
   flex-direction: row;
 }
 
-.page-wrapper h1{
+.page-wrapper h2{
   padding: 2%;
+}
+
+button{
+  background-color: bisque;
+  color: crimson;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight:bolder;
+  padding: 1em;
+  border: 5px solid goldenrod;
+  border-radius: 8px;
+}
+
+.menu-wrapper{
+  flex-grow: 1;
 }
 
 .eas-wapper{
   display: grid;
-  grid-template-columns: repeat(16, 1fr);
   margin: 0;
   padding: 1%;
   background-color: burlywood;
-  flex: 1;
+  flex: 7;
   height: 95%;
 }
 
