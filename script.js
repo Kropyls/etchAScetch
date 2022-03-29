@@ -19,9 +19,6 @@ function gridMaker(container, numPerSide){
     });
     
   }
-  boxes.forEach(element => {
-    element.clientWidth = element.clientHeight;
-  });
 }
 
 function removeAllChildNodes(parent) {
@@ -29,8 +26,6 @@ function removeAllChildNodes(parent) {
       parent.removeChild(parent.firstChild);
   }
 }
-
-
 
 const resetButton = document.getElementById('reset');
 resetButton.addEventListener('click',function(){

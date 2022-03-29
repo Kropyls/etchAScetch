@@ -1,5 +1,4 @@
 .page-wrapper, html, body {
-  height: 100%;
   margin: 0;
 }
 
@@ -10,6 +9,7 @@
   background-color: brown;
   display: flex;
   flex-direction: row;
+  padding: 3%;
 }
 
 .page-wrapper h2{
@@ -31,19 +31,20 @@ button{
 }
 
 .eas-wapper{
+  width: 25%;
+  aspect-ratio: 1/1;
   display: grid;
-  margin: 0;
+  margin: auto;
   padding: 1%;
   background-color: burlywood;
-  flex: 7;
-  height: 95%;
+  flex: 1;
+  
 }
 
 .eas-boxes{
   margin: 0;
   padding: 0;
   background-color: rgb(2, 2, 1);
-  height: 100%;
 }
 
 .touched{
